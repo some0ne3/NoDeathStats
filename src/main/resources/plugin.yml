@@ -1,0 +1,11 @@
+name: NoDeathStats
+version: '${project.version}'
+main: me.someone3.nodeathstats.NoDeathStats
+api-version: 1.19
+permissions:
+  nodeathstats.bypass:
+    description: Allows the player to count deaths (bypasses the nodeathstats.enable permission)
+    default: op
+  nodeathstats.enable:
+    description: Prevents the player from counting deaths, can be used with permission context to disable counting in specific worlds
+    default: false
